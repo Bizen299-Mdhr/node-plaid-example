@@ -27,7 +27,7 @@ app.get('/create-link-token', async (req, res) => {
         user: {
             client_user_id: 'some-unique-identifier',
         },
-        client_name: 'App of Tyler',
+        client_name: 'App',
         products: ['auth', 'identity'],
         country_codes: ['US'],
         language: 'en',
